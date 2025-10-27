@@ -37,4 +37,7 @@ cd <your-repo-name>
 ### Database Setup
 Inside the project, there is a folder named mysql_database that contains the database SQL file.
 You need to import that SQL file into your local MySQL database before running the project.
+insure To access uploaded files in Laravel, you need to link the storage folder to public. like php artisan storage:link
+
+
 
